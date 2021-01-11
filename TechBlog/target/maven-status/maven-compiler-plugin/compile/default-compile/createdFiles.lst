@@ -1,0 +1,10 @@
+com\techblog\service\TechBlogService.class
+com\techblog\dao\TechBlogDao.class
+com\techblog\dao\TechBlogDaoImp.class
+com\techblog\service\TechBlogServiceImp.class
+com\techblog\entities\Post.class
+com\techblog\entities\Caterogies.class
+com\techblog\entities\User.class
+com\techblog\controller\Controllers.class
+com\techblog\controller\RestApiResources.class
+com\techblog\entities\MyMessages.class

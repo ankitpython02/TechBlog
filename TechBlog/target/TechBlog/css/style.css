@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+body {
+	
+}
+
+
+.primary-background
+{
+	background: #283593!important;
+	
+}
+	
+
+input[type="checkbox"]
+{
+	position: fixed;
+	z-index: 1;
+	top: 50px;
+	float: left;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+input[type="checkbox"]:before
+{
+	color: #fff;
+	background: #000;
+	
+}
+input[type="checkbox"]:checked:before
+{
+	color: #000;
+	background: #fff;
+	
+}
+
+input[type="checkbox"]:checked ~ *
+{
+	filter: invert(1);
+}
+
+section{
+	
+	filter: inherit;
+	
+	
+}
+
+
+
+
+/* input[type="checkbox"]
+{
+	position: fixed;
+	z-index: 1;
+	top: 50px;
+	right: 52%;
+	cursor: pointer;
+	-webkit-appearance: none;
+}
+input[type="checkbox"]:before
+{
+	content: 'Dark Mode';
+	color: #fff;
+	background: #000;
+	padding: 10px 20px;
+	
+}
+input[type="checkbox"]:checked:before
+{
+	content: 'Light Mode';
+	color: #000;
+	background: #fff;
+	
+}
+
+input[type="checkbox"]:checked ~ *
+{
+	filter: invert(1);
+}
+
+section{
+	
+	filter: inherit;
+	
+	
+} */
